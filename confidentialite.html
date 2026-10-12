@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RappelIA Go — Politique de confidentialité</title>
+<style>
+  :root{--bg:#F0F2F8;--card:#fff;--tx:#141828;--mt:#5A6078;--acc:#2F56E0;--bd:#DCE0EC}
+  @media (prefers-color-scheme:dark){:root{--bg:#0C0E16;--card:#151827;--tx:#E8EAF2;--mt:#9AA0B8;--acc:#7C9BFF;--bd:#262A3D}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding:24px 16px 48px}
+  main{max-width:720px;margin:0 auto;background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:28px 24px}
+  h1{font-size:1.6rem;line-height:1.25;margin:0 0 4px;text-wrap:balance}
+  .meta{color:var(--mt);font-size:.9rem;margin:0 0 24px}
+  h2{font-size:1.1rem;margin:28px 0 8px;color:var(--acc)}
+  p,li{max-width:65ch}
+  table{width:100%;border-collapse:collapse;font-size:.92rem;margin:8px 0}
+  th,td{text-align:left;vertical-align:top;padding:8px;border-bottom:1px solid var(--bd)}
+  th{color:var(--mt);font-weight:600}
+  .wrap{overflow-x:auto}
+  a{color:var(--acc)}
+</style>
+</head>
+<body>
+<main>
+<h1>Politique de confidentialité de RappelIA Go</h1>
+<p class="meta">Dernière mise à jour : 4 octobre 2026</p>
+
+<p>RappelIA Go est une application Android de rappels, éditée par Joël Bevilacqua (particulier, France). Elle est conçue pour que vos données restent sur votre téléphone : pas de compte, pas de serveur, pas de publicité, pas de mesure d'audience.</p>
+
+<h2>Ce qui reste sur votre téléphone</h2>
+<p>Vos rappels, leurs photos et notes vocales, vos réglages, la position utilisée pour les rappels de lieu et les phrases que vous donnez à l'IA intégrée sont enregistrés uniquement dans la mémoire de l'application, sur votre téléphone. Nous n'y avons pas accès. L'IA (modèle Gemma) fonctionne entièrement sur l'appareil.</p>
+
+<h2>Ce qui passe par Internet</h2>
+<div class="wrap"><table>
+<tr><th>Service</th><th>Donnée envoyée</th><th>Pourquoi</th></tr>
+<tr><td><a href="https://nominatim.org/">OpenStreetMap Nominatim</a></td><td>Le nom du lieu que vous tapez</td><td>Trouver l'adresse d'un rappel de lieu</td></tr>
+<tr><td><a href="https://open-meteo.com/">Open-Meteo</a></td><td>Une position approximative</td><td>Afficher la météo et le widget météo</td></tr>
+<tr><td>Google Fonts</td><td>Données techniques de connexion (adresse IP)</td><td>Télécharger les polices d'écriture de l'appli</td></tr>
+<tr><td>Reconnaissance vocale d'Android (Google)</td><td>Votre voix, quand vous dictez</td><td>Transformer la dictée en texte, selon les réglages de votre téléphone</td></tr>
+</table></div>
+<p>Ces échanges sont chiffrés (HTTPS). Ils sont soumis aux règles de confidentialité de chaque service. RappelIA Go ne vend ni ne partage aucune donnée à d'autres fins.</p>
+
+<h2>Position en arrière-plan</h2>
+<p>Si vous créez un rappel de lieu, l'application lit la position du téléphone, y compris quand elle est fermée, uniquement pour déclencher ce rappel en arrivant ou en partant. Cette position n'est jamais envoyée hors du téléphone. Le suivi s'arrête dès qu'il n'existe plus de rappel de lieu.</p>
+
+<h2>Autorisations demandées</h2>
+<ul>
+<li><strong>Position</strong> : rappels de lieu et météo.</li>
+<li><strong>Micro</strong> : dictée et notes vocales.</li>
+<li><strong>Appareil photo</strong> : photo jointe à un rappel.</li>
+<li><strong>Notifications, alarmes et rappels, écran plein écran</strong> : faire sonner les rappels à l'heure.</li>
+</ul>
+<p>Chaque autorisation peut être refusée ou retirée dans les réglages Android. La fonction concernée ne marchera alors plus, le reste de l'application oui.</p>
+
+<h2>Suppression de vos données</h2>
+<p>Réglages de l'application &gt; « Effacer tous les rappels » supprime vos rappels. Désinstaller l'application efface toutes ses données du téléphone.</p>
+
+<h2>Enfants</h2>
+<p>L'application s'adresse aux adultes et ne collecte sciemment aucune donnée concernant des enfants.</p>
+
+<h2>Modèle d'IA</h2>
+<p>L'IA intégrée utilise un modèle Gemma, fourni sous les conditions d'utilisation de Gemma : <a href="https://ai.google.dev/gemma/terms">ai.google.dev/gemma/terms</a>. Son usage est soumis à la <a href="https://ai.google.dev/gemma/prohibited_use_policy">politique d'utilisation interdite de Gemma</a>.</p>
+
+<h2>Contact</h2>
+<p>Pour toute question : <a href="mailto:joel.bevilacqua0667@gmail.com">joel.bevilacqua0667@gmail.com</a></p>
+</main>
+</body>
+</html>
